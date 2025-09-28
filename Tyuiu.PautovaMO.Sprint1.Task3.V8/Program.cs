@@ -38,7 +38,7 @@ namespace Tyuiu.PautovaMO.Sprint1.Task3.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(" Сумма по окончании срока вклада = " + Math.Round(ds.IncomeAmount(x, y, z), 3));
+            Console.WriteLine(" Доход = " + Math.Round(ds.IncomeAmount(x, y, z), 3));
 
             Console.ReadLine();
         }
