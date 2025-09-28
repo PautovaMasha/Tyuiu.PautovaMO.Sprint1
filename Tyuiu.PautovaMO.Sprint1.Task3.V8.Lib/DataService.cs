@@ -6,7 +6,7 @@ namespace Tyuiu.PautovaMO.Sprint1.Task3.V8.Lib
     {
         public double IncomeAmount(double startAmount, double percent, double timeDays)
         {
-            return (startAmount * percent * timeDays) / (365*100);
+            return Math.Round((startAmount * percent * timeDays) / (365*100),3);
         }
     }
 }
