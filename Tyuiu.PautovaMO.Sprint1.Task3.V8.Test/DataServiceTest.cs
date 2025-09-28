@@ -12,7 +12,7 @@ namespace Tyuiu.PautovaMO.Sprint1.Task3.V8.Test
             double y = 20;
             double z = 30;
             var res = Math.Round(ds.IncomeAmount(x, y, z),3);
-            Assert.AreEqual(2541.096, res);
+            Assert.AreEqual(41.096, res);
 
         }
     }

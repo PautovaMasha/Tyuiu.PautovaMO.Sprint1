@@ -26,10 +26,13 @@ namespace Tyuiu.PautovaMO.Sprint1.Task3.V8
             Console.WriteLine(" Введите величину вклада ");
             x = Convert.ToInt32(Console.ReadLine());
 
-            double y = 20;
-            double z = 30;
-            Console.WriteLine(" Процентная ставка = " + y);
-            Console.WriteLine(" Время хранения = " + z);
+            double y;
+            Console.WriteLine(" Введите Процентную ставку ");
+            y = Convert.ToInt32(Console.ReadLine());
+
+            double z;
+            Console.WriteLine(" Введите Время хранения ");
+            z = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
